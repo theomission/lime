@@ -1,6 +1,0 @@
-add_subdirectory(CCExample)
-add_subdirectory(FlowFieldDesign)
-add_subdirectory(ImagingVectorField)
-add_subdirectory(NPRFilterDemo)
-add_subdirectory(PencilDrawing)
-add_subdirectory(PerlinNoise)
