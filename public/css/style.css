@@ -1,0 +1,37 @@
+body {
+  font-size: 12pt;
+}
+
+h3 {
+  font-size: 14pt;
+  float: none;
+}
+
+.bold-face {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.well {
+  color: #333;
+  background: #fff;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  color: #fff;
+  background: rgb(100, 200, 120);
+}
+
+.caption {
+  padding: 5px;
+}
+
+#badge {
+  margin: 5px;
+  padding: 5px;
+}

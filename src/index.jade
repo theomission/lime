@@ -1,0 +1,29 @@
+extends ../layout/default
+
+block content
+  .container
+    .row
+      .jumbotron
+        h2 lime: image gallery
+        p
+          | Welcome to lime's image gallery.
+    .row
+      .col-sm-6.col-md-3.well: h3 NPR Filters
+      .col-sm-6.col-md-3
+        .thumnail
+          img(src="public/img/cartoon.jpg", width="100%")
+          .caption
+            span.bold-face Cartoon Pipeline
+            a.label.label-success#badge(href="https://github.com/tatsy/lime/blob/master/examples/NPRFilterDemo/NPRFilterDemo.cpp#L31-L75", target="_blank") Code
+      .col-sm-6.col-md-3
+        .thumnail
+          img(src="public/img/mean_curvature.jpg", width="100%")
+          .caption
+            span.bold-face Mean Carvature Flow
+            a.label.label-success#badge(href="https://github.com/tatsy/lime/blob/master/examples/NPRFilterDemo/NPRFilterDemo.cpp#L31-L75", target="_blank") Code
+      .col-sm-6.col-md-3
+        .thumnail
+          img(src="public/img/shock_filter.jpg", width="100%")
+          .caption
+            span.bold-face Shock Filter
+            a.label.label-success#badge(href="https://github.com/tatsy/lime/blob/master/examples/NPRFilterDemo/NPRFilterDemo.cpp#L31-L75", target="_blank") Code

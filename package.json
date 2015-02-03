@@ -1,0 +1,29 @@
+{
+  "name": "lime",
+  "version": "0.1.0",
+  "description": "Library for image editing",
+  "main": "index.jade",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatsy/lime.git"
+  },
+  "author": "tatsy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tatsy/lime/issues"
+  },
+  "homepage": "https://github.com/tatsy/lime",
+  "devDependencies": {
+    "grant": "^2.0.0",
+    "grunt-cli": "^0.1.13"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jade": "^0.14.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jade": "^1.9.1"
+  }
+}
